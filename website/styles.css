@@ -218,11 +218,11 @@ button { cursor: pointer; font-family: var(--font-primary); border: none; }
 
 /* ===== PROMOTIONS ===== */
 .promo-section { background: var(--clr-black-light); }
-.promo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 24px; }
+.promo-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; }
 .promo-card {
   background: linear-gradient(135deg, var(--clr-black-card) 0%, rgba(245,197,24,0.05) 100%);
   border: 1px solid rgba(245,197,24,0.2); border-radius: var(--radius-lg);
-  padding: 32px; position: relative; overflow: hidden; transition: var(--transition);
+  padding: 40px; position: relative; overflow: hidden; transition: var(--transition);
 }
 .promo-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-glow); }
 .promo-card .promo-tag {
@@ -230,9 +230,9 @@ button { cursor: pointer; font-family: var(--font-primary); border: none; }
   color: #fff; font-size: 0.75rem; font-weight: 700; padding: 6px 40px;
   transform: rotate(45deg); letter-spacing: 1px;
 }
-.promo-card h3 { font-size: 1.3rem; margin-bottom: 8px; color: var(--clr-yellow); }
-.promo-card p { color: var(--clr-gray-light); font-size: 0.95rem; margin-bottom: 16px; }
-.promo-card .promo-validity { font-size: 0.8rem; color: var(--clr-gray); }
+.promo-card h3 { font-size: 1.5rem; margin-bottom: 12px; color: var(--clr-yellow); }
+.promo-card p { color: var(--clr-gray-light); font-size: 1.05rem; margin-bottom: 20px; line-height: 1.7; }
+.promo-card .promo-validity { font-size: 0.85rem; color: var(--clr-gray); }
 
 /* ===== ABOUT ===== */
 .about-section { background: var(--clr-black); }
