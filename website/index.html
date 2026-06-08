@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="MK Sambal Gepok — Authentic Malaysian spicy smashed chicken. Order online for pickup or delivery. Fresh, flavorful, and unforgettable!">
+  <title>MK Sambal Gepok — Rasa Gepuk Yang Viral!</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo">
+        <img src="images/logo.png" alt="MK Sambal Gepok Logo">
+        <span>MK SAMBAL GEPOK</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#promos">Promotions</a>
+        <a href="#about">About Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#location">Location</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero section" id="home">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">🔥 Now Open!</div>
+        <h1>
+          <span class="highlight">MK Sambal</span><br>
+          <span class="red">Gepok</span>
+        </h1>
+        <p>Nikmati Ayam Gepuk yang rangup di luar, lembut di dalam, dengan sambal homemade yang bikin ketagihan! Rasa
+          premium, harga mampu milik.</p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">View Menu →</a>
+          <a href="#contact" class="btn btn-outline">Contact Us</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <h3>4</h3>
+            <p>Set Meals</p>
+          </div>
+          <div class="stat">
+            <h3>4.8★</h3>
+            <p>Customer Rating</p>
+          </div>
+          <div class="stat">
+            <h3>1000+</h3>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/food-main.png" alt="MK Sambal Gepok signature ayam gepuk dish">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section class="menu-section section" id="menu">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Our Menu</span>
+        <h2>Pilih Set Kegemaran Anda!</h2>
+        <p>Fresh ingredients, homemade sambal, and cooked with love. Every set is a complete meal.</p>
+      </div>
+
+      <div class="menu-grid fade-in" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
+        <!-- SET A -->
+        <div class="menu-card">
+          <div class="menu-card-img"><img src="images/set-a.png" alt="Set A"></div>
+          <div class="menu-card-body">
+            <h3>Set A</h3>
+            <p>Nasi, Ayam, Kobis, Sambal, Timun</p>
+            <div class="menu-card-footer">
+              <span class="menu-badge">Basic</span>
+            </div>
+          </div>
+        </div>
+        <!-- SET B -->
+        <div class="menu-card">
+          <div class="menu-card-img"><img src="images/set-b.png" alt="Set B"></div>
+          <div class="menu-card-body">
+            <h3>Set B</h3>
+            <p>Nasi, Ayam, Kobis, Sambal, Timun, Tempe</p>
+            <div class="menu-card-footer">
+              <span class="menu-badge">Popular</span>
+            </div>
+          </div>
+        </div>
+        <!-- SET C -->
+        <div class="menu-card">
+          <div class="menu-card-img"><img src="images/set-c.png" alt="Set C"></div>
+          <div class="menu-card-body">
+            <h3>Set C</h3>
+            <p>Nasi, Ayam, Kobis, Sambal, Timun, Tempe, Pedal</p>
+            <div class="menu-card-footer">
+              <span class="menu-badge">Value</span>
+            </div>
+          </div>
+        </div>
+        <!-- SET D -->
+        <div class="menu-card">
+          <div class="menu-card-img"><img src="images/set-d.png" alt="Set D"></div>
+          <div class="menu-card-body">
+            <h3>Set D</h3>
+            <p>Nasi, Ayam, Kobis, Sambal, Timun, Tempe, Pedal, Kobis Goreng</p>
+            <div class="menu-card-footer">
+              <span class="menu-badge">Best Deal</span>
+            </div>
+          </div>
+        </div>
+        <!-- NASI -->
+        <div class="menu-card">
+          <div class="menu-card-img"><img src="images/nasi-putih.png" alt="Nasi Putih"></div>
+          <div class="menu-card-body">
+            <h3>Nasi</h3>
+            <p>Nasi putih panas — free refill untuk semua set!</p>
+            <div class="menu-card-footer">
+              <span class="menu-badge" style="background:var(--clr-yellow);color:var(--clr-black);">🍚 Free
+                Refill</span>
+            </div>
+          </div>
+        </div>
+        <!-- SAMBAL -->
+        <div class="menu-card">
+          <div class="menu-card-img"><img src="images/sambal.png" alt="Sambal Gepok"></div>
+          <div class="menu-card-body">
+            <h3>Sambal</h3>
+            <p>Pilih level pedas anda:</p>
+            <p style="margin-top:8px;">
+              <span
+                style="background:rgba(46,204,113,0.15);color:#2ecc71;padding:4px 10px;border-radius:12px;font-size:0.8rem;font-weight:600;">😊
+                Not Spicy</span>
+              <span
+                style="background:rgba(230,126,34,0.15);color:#e67e22;padding:4px 10px;border-radius:12px;font-size:0.8rem;font-weight:600;margin-left:4px;">🔥
+                Spicy</span>
+              <span
+                style="background:rgba(230,57,70,0.15);color:#E63946;padding:4px 10px;border-radius:12px;font-size:0.8rem;font-weight:600;margin-left:4px;">🔥🔥
+                Super Spicy</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DRINKS -->
+      <div class="fade-in" style="margin-top:48px;">
+        <h3 style="text-align:center;font-size:1.4rem;margin-bottom:24px;color:var(--clr-yellow);">🥤 Pilihan Minuman
+        </h3>
+        <div
+          style="max-width:600px;margin:0 auto;background:var(--clr-black-card);border-radius:var(--radius);padding:24px;border:1px solid var(--clr-border);">
+          <div class="menu-list-item">
+            <div><span class="item-name">Air Kosong</span><br><span class="item-desc">Plain water</span></div><span
+              class="item-price">RM0.50</span>
+          </div>
+          <div class="menu-list-item">
+            <div><span class="item-name">Air Sirap</span><br><span class="item-desc">Sweet rose syrup drink</span></div>
+            <span class="item-price">RM1.50</span>
+          </div>
+          <div class="menu-list-item">
+            <div><span class="item-name">Teh O Ais</span><br><span class="item-desc">Classic iced black tea</span></div>
+            <span class="item-price">RM1.50</span>
+          </div>
+          <div class="menu-list-item">
+            <div><span class="item-name">Air Limau</span><br><span class="item-desc">Fresh lime juice — tangy and
+                cooling</span></div><span class="item-price">RM1.50</span>
+          </div>
+          <div class="menu-list-item">
+            <div><span class="item-name">Teh Tarik</span><br><span class="item-desc">Pulled milk tea — frothy and
+                sweet</span></div><span class="item-price">RM2</span>
+          </div>
+          <div class="menu-list-item">
+            <div><span class="item-name">Air Bandung</span><br><span class="item-desc">Rose milk drink — creamy and
+                refreshing</span></div><span class="item-price">RM3</span>
+          </div>
+          <div class="menu-list-item">
+            <div><span class="item-name">Milo Ais</span><br><span class="item-desc">Iced chocolate malt — Malaysian
+                favourite</span></div><span class="item-price">RM3</span>
+          </div>
+          <div class="menu-list-item">
+            <div><span class="item-name">Air Kelapa</span><br><span class="item-desc">Fresh coconut water — natural and
+                hydrating</span></div><span class="item-price">RM5</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- ===== PROMOTIONS ===== -->
+  <section class="promo-section section" id="promos">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Promotions</span>
+        <h2>Jangan Lepas Tawaran Menarik! 🎉</h2>
+        <p>Check out our latest deals and save on your favourite meals.</p>
+      </div>
+      <div class="promo-grid fade-in">
+        <div class="promo-card">
+          <div class="promo-tag">HOT</div>
+          <h3>🔥 Combo Jimat</h3>
+          <p>Beli 2 set Combo A, dapat <strong>FREE</strong> air sirap! Perfect for sharing with friends.</p>
+          <span class="promo-validity">Valid until 30 June 2026 • Terms apply</span>
+        </div>
+        <div class="promo-card">
+          <div class="promo-tag">NEW</div>
+          <h3>🎓 Student Discount</h3>
+          <p>Show your student card and enjoy <strong>10% OFF</strong> on all items. Study hard, eat well!</p>
+          <span class="promo-validity">Ongoing promotion • Student ID required</span>
+        </div>
+        <div class="promo-card">
+          <div class="promo-tag">LIMITED</div>
+          <h3>🎁 First Timer Treat</h3>
+          <p>First order via our website? Get a <strong>FREE Drink</strong> with any main dish purchase!</p>
+          <span class="promo-validity">For new customers only • While stocks last</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT US ===== -->
+  <section class="about-section section" id="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">About Us</span>
+        <h2>Cerita Di Sebalik Gepuk Terbaik!</h2>
+      </div>
+      <div class="about-wrapper fade-in">
+        <div class="about-image">
+          <img src="images/restaurant-interior.png" alt="MK Sambal Gepok restaurant">
+        </div>
+        <div class="about-content">
+          <h3>Our Story</h3>
+          <p><strong>MK Sambal Gepok</strong> bermula daripada satu impian mudah — nak bagi semua orang rasa ayam gepuk
+            yang betul-betul sedap, rangup, dan berbaloi!</p>
+          <p>Kami bermula dari dapur rumah, dan dengan sokongan pelanggan setia kami, MK Sambal Gepok kini telah
+            berkembang menjadi jenama yang dikenali ramai. Setiap ayam yang kami hidangkan dimasak dengan penuh kasih
+            sayang menggunakan resipi warisan keluarga.</p>
+          <p><strong>Visi Kami:</strong> Menjadi jenama ayam gepuk #1 di Malaysia!</p>
+          <p><strong>Misi Kami:</strong> Menghidangkan makanan berkualiti tinggi pada harga mampu milik.</p>
+          <div class="about-values">
+            <div class="about-value">
+              <div class="icon">🐔</div>
+              <div>
+                <h4>Ayam Segar</h4>
+                <p>Never frozen, always fresh daily</p>
+              </div>
+            </div>
+            <div class="about-value">
+              <div class="icon">🌶️</div>
+              <div>
+                <h4>Sambal Homemade</h4>
+                <p>Secret family recipe passed down</p>
+              </div>
+            </div>
+            <div class="about-value">
+              <div class="icon">🧑‍🍳</div>
+              <div>
+                <h4>Dimasak Fresh</h4>
+                <p>Every order is cooked to order</p>
+              </div>
+            </div>
+            <div class="about-value">
+              <div class="icon">❤️</div>
+              <div>
+                <h4>Passion & Love</h4>
+                <p>More than business, it's our heart</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery-section section" id="gallery">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Gallery</span>
+        <h2>Tengok Dulu, Mesti Lapar! 📸</h2>
+        <p>A feast for the eyes before the feast for your stomach.</p>
+      </div>
+      <div class="gallery-grid fade-in">
+        <div class="gallery-item">
+          <img src="images/food-spread.png" alt="Food spread">
+          <div class="overlay"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/food-main.png" alt="Ayam Gepuk">
+          <div class="overlay"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/food-classic.png" alt="Classic dish">
+          <div class="overlay"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/food-combo.png" alt="Combo meal">
+          <div class="overlay"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/food-gallery1.png" alt="Gallery photo">
+          <div class="overlay"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/restaurant-interior.png" alt="Restaurant">
+          <div class="overlay"><span>🔍</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT US ===== -->
+  <section class="contact-section section" id="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Contact Us</span>
+        <h2>Jom Hubungi Kami!</h2>
+        <p>Have questions or feedback? We'd love to hear from you.</p>
+      </div>
+      <div class="contact-wrapper fade-in">
+        <div>
+          <h3 style="font-family:var(--font-display);font-size:1.6rem;margin-bottom:8px;">Get In Touch</h3>
+          <p style="color:var(--clr-gray-light);margin-bottom:24px;">Reach out to us through any of these channels.</p>
+          <div class="contact-info-list">
+            <div class="contact-item">
+              <div class="icon">📍</div>
+              <div>
+                <h4>Address</h4>
+                <p>Sarawak, Malaysia</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon">📞</div>
+              <div>
+                <h4>Phone</h4>
+                <p>+60 12-345 6789</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon">📧</div>
+              <div>
+                <h4>Email</h4>
+                <p>mksambalGepok@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon">📱</div>
+              <div>
+                <h4>WhatsApp</h4>
+                <p>+60 12-345 6789</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-links" style="margin-top:32px;">
+            <a href="#" class="social-link" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <h3>Send Us A Message</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contactName">Your Name</label>
+              <input type="text" id="contactName" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Email</label>
+              <input type="email" id="contactEmail" placeholder="your@email.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="contactSubject">Subject</label>
+            <input type="text" id="contactSubject" placeholder="What's this about?">
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" placeholder="Write your message here..." rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message
+            ✉️</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION ===== -->
+  <section class="location-section section" id="location">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Location</span>
+        <h2>Jom Datang Makan! 📍</h2>
+        <p>Find us and enjoy the full MK Sambal Gepok experience.</p>
+      </div>
+      <div class="location-wrapper fade-in">
+        <div class="location-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2040889.693498!2d110.5!3d2.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3219e64dee3b80c1%3A0xd0c087607aed40d1!2sSarawak!5e0!3m2!1sen!2smy!4v1"
+            allowfullscreen loading="lazy" title="MK Sambal Gepok Location"></iframe>
+        </div>
+        <div>
+          <h3 style="font-family:var(--font-display);font-size:1.6rem;margin-bottom:16px;">Operating Hours</h3>
+          <table class="hours-table">
+            <tr>
+              <td>Monday — Friday</td>
+              <td>11:00 AM — 9:00 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>10:00 AM — 10:00 PM</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>10:00 AM — 10:00 PM</td>
+            </tr>
+          </table>
+          <div style="margin-top:32px;">
+            <h4 style="margin-bottom:12px;color:var(--clr-yellow);">Also Available On:</h4>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;">
+              <span class="btn btn-outline" style="padding:8px 20px;font-size:0.85rem;">GrabFood</span>
+              <span class="btn btn-outline" style="padding:8px 20px;font-size:0.85rem;">ShopeeFood</span>
+              <span class="btn btn-outline" style="padding:8px 20px;font-size:0.85rem;">FoodPanda</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="#home" class="nav-logo" style="margin-bottom:8px;">
+            <img src="images/logo.png" alt="MK Sambal Gepok" style="height:36px;">
+            <span>MK SAMBAL GEPOK</span>
+          </a>
+          <p>Ayam Gepuk berkualiti tinggi dengan sambal homemade yang bikin ketagihan. Rasa gepuk yang viral! 🔥</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+
+            <li><a href="#promos">Promotions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+60123456789">📞 +60 12-345 6789</a></li>
+            <li><a href="mailto:mksambalGepok@gmail.com">📧 mksambalGepok@gmail.com</a></li>
+            <li><a href="#">📍 Sarawak, MY</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 MK Sambal Gepok. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
